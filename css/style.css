@@ -1,0 +1,129 @@
+
+
+
+* {
+    margin:0;
+    border:0;
+
+}
+
+body {
+    
+    height:100vh;
+    background:url("/assets/bg_body.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand p {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.header {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:auto;
+
+}
+
+
+.nav-header-wrapper {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    background: linear-gradient(to right, rgb(207, 44, 207), rgb(201, 145, 145));
+    height: 20%;
+}
+
+.nav-header-wrapper h1{
+    font-size:4em;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+.hour {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+    font-size: 2em;
+    background: linear-gradient(to right, rgb(207, 44, 207), rgb(201, 145, 145));
+    color: rgb(24, 22, 22);
+    font-weight: bold;
+}
+
+.adoption {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin:2em;
+    box-shadow: 1px solid black;
+    
+}
+
+.partenaires {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.img-partenaires {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+   
+}
+
+.map {
+  
+    margin-left: 3em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:640px){
+    body {
+        width:100%;
+    }
+}
