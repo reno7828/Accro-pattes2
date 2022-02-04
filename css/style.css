@@ -57,6 +57,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-weight: bolder;
 }
 
 .info {
@@ -90,6 +91,7 @@ body {
 .partenaires {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     font-size: 2em;
     margin-top: 2em;
@@ -97,8 +99,10 @@ body {
 
 .img-partenaires {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
 }
 
 .map {
@@ -145,5 +149,9 @@ footer {
         margin-left: -2em;
         color: black;
         font-weight: bold;
+    }
+    .partenaires {
+        width: 120%;
+        font-size: 1.5em;
     }
 }
